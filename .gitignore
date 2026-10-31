@@ -1,0 +1,27 @@
+# Operating system
+.DS_Store
+.fuse_hidden*
+
+# R session files
+.Rhistory
+.RData
+
+# Editor swap and backup files
+*~
+*.swp
+*.swo
+.#*
+
+# LaTeX intermediate files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# No rule above applies to the data folder
+!/data/**

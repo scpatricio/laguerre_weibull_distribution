@@ -1,0 +1,16 @@
+\begin{table}[htb!]
+\centering
+\small
+\caption{Comparison of the GLW model with three mortality laws over the 426 population-years (females, ages 50--109, 1950--2020). $\Delta\mathrm{AIC}_m=\mathrm{AIC}_m-\min_m\mathrm{AIC}_m$ within each population-year; Best AIC is the percentage of population-years in which the model has the lowest AIC; MAE is the mean absolute error, in years, of the estimated remaining life expectancy.}
+\label{tab:benchmark}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrrrr}
+\toprule
+Model & Parameters & Median $\Delta\mathrm{AIC}$ & Best AIC (\%) & MAE $\mathring{e}_{50}$ & MAE $\mathring{e}_{65}$ & MAE $\mathring{e}_{80}$\\
+\midrule
+GLW & 4 & 0.0 & 77.7 & 0.031 & 0.145 & 0.088\\
+Gamma-Gompertz & 3 & 33.1 & 19.5 & 0.030 & 0.171 & 0.091\\
+Kannisto & 2 & 421.3 & 0.7 & 0.067 & 0.214 & 0.109\\
+Gompertz & 2 & 112.0 & 2.1 & 0.027 & 0.159 & 0.091\\
+\bottomrule
+\end{tabular*}
+\end{table}
